@@ -25,10 +25,10 @@ packages: *deps
 
 commands:
   dashboard:
-    unix: panel serve app.ipynb
+    unix: panel serve glaciers.ipynb
     supports_http_options: true
   notebook:
-    notebook: app.ipynb
+    notebook: glaciers.ipynb
   test:
     unix: pytest --nbsmoke-run -k *.ipynb --ignore envs
     windows: pytest --nbsmoke-run -k *.ipynb --ignore envs
