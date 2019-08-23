@@ -1,4 +1,5 @@
 dependencies:
+  - pip
   - pyviz::param=1.9.0
   - pyviz::pyviz_comms=0.7.2
   - pyviz::datashader
@@ -6,5 +7,5 @@ dependencies:
   - pyviz/label/dev::holoviews=1.12.2
   - pyviz/label/dev::geoviews-core=1.6.2
   - pyviz/label/dev::panel=0.5.1
-  pip:
+  - pip:
     - git+https://github.com/pyviz/jupyter-panel-server.git@jsignell/init
