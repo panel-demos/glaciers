@@ -8,4 +8,4 @@ dependencies:
   - pyviz/label/dev::geoviews-core=1.6.2
   - pyviz/label/dev::panel=0.5.1
   - pip:
-    - git+https://github.com/pyviz/jupyter-panel-server.git@jsignell/init
+    - git+https://github.com/pyviz/jupyter-panel-proxy.git@jsignell/init
